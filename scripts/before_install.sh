@@ -1,0 +1,1 @@
+sudo rm -r /usr/share/nginx/static-website-example
