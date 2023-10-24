@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /usr/share/nginx/static-website-example
+
+permissions:
+  - object: /usr/share/nginx/static-website-example
+    pattern: "**"
+    owner: root
+    group: root
+    mode: 755
+    type:
+      - file
+      - directory
